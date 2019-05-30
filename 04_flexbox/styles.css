@@ -1,0 +1,17 @@
+
+
+.colonia {
+  height: 700px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cuadra {
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+}
+
