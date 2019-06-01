@@ -1,0 +1,65 @@
+.flag {
+  height: 400px;
+  width: 700px;
+  background: #002868;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-left {
+  height: 43%;
+  width: 30%;
+  background: white;
+}
+
+.top-left-in {
+  background: red;
+  height: 90%;
+  width: 90%;
+}
+
+.top-right {
+  height: 43%;
+  width: 60%;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-right-in {
+  background: red;
+  height: 90%;
+  width: 94%;
+}
+
+.bottom-right {
+  height: 43%;
+  width: 60%;
+  background: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.bottom-left {
+  height: 43%;
+  width: 30%;
+  background: white;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.bottom-left-in {
+  background: red;
+  height: 90%;
+  width: 90%;
+}
+
+.bottom-right-in {
+  background: red;
+  height: 90%;
+  width: 94%;
+}
