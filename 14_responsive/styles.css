@@ -1,0 +1,47 @@
+.img-profile {
+  width: 30px;
+  border-radius: 50%;
+}
+.custom-navbar {
+  position: fixed;
+  padding: 0 85px;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar-content{
+  display: flex;
+  justify-content: flex-end;
+  width: 400px
+}
+.menu-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-list {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 30px
+}
+
+.menu-list a {
+  color: white;
+  font-size: 13px;
+}
+
+.menu-list a:hover{
+  color: navy;
+  text-decoration: none;
+}
+
+.profile-menu {
+  display: flex;
+  align-items: center;
+}
