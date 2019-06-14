@@ -14,11 +14,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+  <nav class="col-12 navbar navbar-expand-lg navbar-light custom-navbar">
     <img class="logo" src="https://cdn.freebiesupply.com/logos/large/2x/spotify-1-logo-black-and-white.png" alt="">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    <button class="navbar-toggler custom-nav-icon-container" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
       aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon custom-nav-icon"></span>
     </button>
     <div class="collapse navbar-collapse menu-nav" id="navbarNav">
       <ul class="navbar-nav navbar-content ">
@@ -35,9 +35,9 @@
         </div>
         <div class="profile-menu ">
           <li class="nav-item">
-            <img class="img-profile"
+            <!-- <img class="img-profile"
               src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/11150742_947154855314789_5946498821706403381_n.jpg?_nc_cat=102&_nc_ht=scontent.fmex5-1.fna&oh=cc2b5b152f1205c2b57cb650153ac208&oe=5D54B4F0"
-              alt="">
+              alt=""> -->
           </li>
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -50,12 +50,30 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </div>
-
-
-
       </ul>
     </div>
   </nav>
+
+  <main class="col-12">
+    <div class="row">
+      <div class="custom-text col-12 col-lg-4 offset-lg-1">
+        <span>Escuchado recientemente</span>
+        <h1>Retoma el Ritmo</h1>
+        <p>Sigue disfrutando de la música que estabas escuchando justo donde la dejaste.</p>
+        <button>ABRIR REPRODUCTOR</button>
+      </div>
+      <div class="covers col-12 col-lg-6">
+        <div class="cover">
+          <p class="d-lg-none">titulo de cancion</p>
+        </div>
+        <div class="cover"></div>
+        <div class="cover d-none d-lg-block"></div>
+        <div class="cover d-none d-lg-block"></div>
+        <div class="cover d-none d-lg-block"></div>
+        <div class="cover d-none d-lg-block"></div>
+      </div>
+    </div>
+  </main>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

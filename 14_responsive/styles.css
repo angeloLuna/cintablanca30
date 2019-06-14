@@ -1,12 +1,96 @@
-.img-profile {
+body{
+  background: pink;
+}
+
+.custom-navbar {
+  border: 2px solid;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  background: #222326;
+}
+
+.logo {
+  width: 70px;
+}
+
+.custom-nav-icon {
+  width: 20px;
+}
+
+.custom-nav-icon-container {
+  padding: 0;
+  border: none;
+}
+
+.custom-text {
+  padding-top: 2rem;
+  border: 2px solid red;
+  text-align: center;
+  color: white;
+}
+
+.custom-text span {
+  font-size: 11px;
+}
+
+.custom-text h1 {
+  font-weight: 400;
+}
+
+.custom-text p {
+  font-weight: 800;
+}
+
+.custom-text button {
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: #1DB954;
+  color: white;
+  width: 100%;
+}
+
+.covers {
+  border: 2px solid blue;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cover {
+  width: 130px;
+  height: 125px;
+  border: 2px solid;
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .img-profile {
   width: 30px;
   border-radius: 50%;
 }
 .custom-navbar {
   position: fixed;
+  border: 2px solid;
   padding: 0 85px;
   height: 60px;
-  width: 100%;
 }
 
 .logo {
@@ -44,4 +128,4 @@
 .profile-menu {
   display: flex;
   align-items: center;
-}
+} */
